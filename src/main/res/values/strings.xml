@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">About Me</string>
+    <!--    <string name="already_have_an_account_login">Already have an account? <a href=''><b><u><font color="orange" >Login</font></u></b></a></string>-->
+    <!--    <string name="already_have_an_account_login">Already have an account? <a href=''><b><u><font color="orange">Login</font></u></b></a></string>-->
+    <!--    <string name="Do_not_have_account_sign_up">Do not have account? <a href=''><b><u><font color="orange">Sign Up</font></u></b></a></string>-->
+    <string name="Login_with_Google">Login with Google <a href=''><b>Google</b></a></string>
+    <string name="don_t_have_account_sign_up">Don\'t have account? Sign up</string>
+</resources><!--    This is <font color="red">red</font> and this <b><i>bold and italic (nested); </i>this just bold</b>, <u>underlined</u> and here the placeholder = %1s-->

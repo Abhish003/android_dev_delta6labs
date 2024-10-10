@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/logo_icon"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.HelloApplication"
+        tools:targetApi="31">
+        <activity
+            android:name=".SplashscreenActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ContactActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Home.SkillsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Home.ContactActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Home.AboutActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Home.HomepageActivity"
+            android:exported="false" />
+        <activity
+            android:name=".homeActivity"
+            android:exported="true" />
+        <activity
+            android:name=".login_pageActivity"
+            android:exported="true" />
+        <activity
+            android:name=".SignupActivity"
+            android:exported="true" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

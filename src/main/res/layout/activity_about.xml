@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".Home.AboutActivity">
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="160dp"
+        android:layout_height="41dp"
+        android:layout_marginTop="66dp"
+        android:layout_marginBottom="7dp"
+        android:fontFamily="@font/poppins_bold"
+        android:gravity="center"
+        android:text="About Me"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toTopOf="@+id/imageView3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="46dp"
+        android:layout_height="36dp"
+        android:layout_marginStart="8dp"
+        android:src="@drawable/back_btn_icon"
+        app:layout_constraintBottom_toBottomOf="@+id/textView7"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/textView7" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="85dp"
+        android:layout_height="78dp"
+        android:layout_marginBottom="28dp"
+        android:background="@color/white"
+        android:src="@drawable/avatar_bboy"
+        app:layout_constraintBottom_toTopOf="@+id/textView8"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView7" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="187dp"
+        android:layout_height="78dp"
+        android:layout_marginBottom="29dp"
+        android:fontFamily="@font/poppins_bold"
+        android:gravity="center"
+        android:text="Abhishek Srivastava"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toTopOf="@+id/textView17"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView3" />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="338dp"
+        android:layout_height="268dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="319dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginBottom="13dp"
+        android:background="@drawable/about_text_bg"
+        android:fontFamily="@font/poppins"
+        android:gravity="center"
+        android:padding="22dp"
+        android:text="Dynamic and driven BTech Computer Science student with a passion for leveraging technology to solve real-world problems. Proficient in programming languages
+such as Java, Python, and experienced in collaborating within multidisciplinary
+teams.
+Demonstrated ability to adapt quickly to new technologies and
+environments, with a keen interest in staying updated with emerging trends in the
+field. "
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toTopOf="@+id/button3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="230dp"
+        android:layout_height="51dp"
+        android:layout_marginBottom="85dp"
+        android:backgroundTint="@color/orange"
+        android:text="Contact"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView17" />
+
+    <!--        android:background="@drawable/rounded_corner_skill_btn"-->
+    <!--        android:backgroundTint="@color/orange"-->
+    <!--        android:text="Skills"-->
+    <!--        app:layout_constraintBottom_toBottomOf="parent"-->
+    <!--        app:layout_constraintEnd_toEndOf="parent"-->
+    <!--        app:layout_constraintStart_toStartOf="parent"-->
+    <!--        app:layout_constraintTop_toBottomOf="@+id/textView17"-->
+    <!--        app:layout_constraintVertical_bias="0.666" />-->
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
